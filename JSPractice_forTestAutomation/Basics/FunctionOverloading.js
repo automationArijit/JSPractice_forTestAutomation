@@ -66,9 +66,25 @@ function signin(){
     }
 }
 
- signin('admin',10);
+ signin('admin',10,2587);
 
 
+console.log('--------------------------------------------------------------');
 
+/**
+ * 
+ * @param {string} unsername 
+ * @param {string} password 
+ */
+function mylogin(unsername =null, password =null){
 
+    if (unsername && password) {
+        console.log('allow user to login');
+    }
+    else{
+         console.log('Do not allow user to login');
+    }
+
+}
+mylogin('admin','testing');
 
