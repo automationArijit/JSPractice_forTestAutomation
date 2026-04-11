@@ -1,0 +1,14 @@
+{
+  "name": "javascript_learning",
+  "version": "1.0.0",
+  "description": "My learning javascript",
+  "license": "ISC",
+  "author": "Arijit Chatterjee",
+  "type": "module",
+  "main": "index.js",
+  
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
